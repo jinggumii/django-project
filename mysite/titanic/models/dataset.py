@@ -14,7 +14,7 @@ class Dataset(object):
     # 데이터를 읽고(gettet = property) / 쓰기(setter) 기능을 추가
 
     @property
-    def contest(self) -> str: return self._context # 내부에서 쓸때는 _준다고 생각해보셈
+    def context(self) -> str: return self._context # 내부에서 쓸때는 _준다고 생각해보셈
 
     @context.setter
     def context(self, context): self._context = context
